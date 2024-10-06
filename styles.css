@@ -1,0 +1,50 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --card-bg: #f8f9fa;
+  --card-border: #dee2e6;
+}
+
+[data-bs-theme="dark"] {
+  --bg-color: #212529;
+  --text-color: #ffffff;
+  --card-bg: #343a40;
+  --card-border: #495057;
+  --footer-bg: #343a40;
+  --btn-outline-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+h1, h2 {
+  font-family: "Sofia", sans-serif;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-color: var(--card-border);
+}
+
+.list-group-item {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border-color: var(--card-border);
+}
+
+.navbar {
+  background-color: var(--card-bg) !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: var(--text-color);
+}
+
+footer {
+  background-color: var(--card-bg) !important;
+  color: var(--text-color);
+}
